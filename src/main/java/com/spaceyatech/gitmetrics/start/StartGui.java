@@ -12,7 +12,7 @@ public class StartGui {
 
     // The Classloader scanned the class path and found a class called SomeHelperImpl and 
     // instantiated it and injected it here as a singleton.  If some where else has a SomeHelper
-    // and @Autowired annotation it will also inkect there.
+    // and @Autowired annotation it will also inject there.
     @Autowired
     private SomeHelper someHelper;
 
